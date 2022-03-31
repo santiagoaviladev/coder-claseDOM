@@ -1,13 +1,16 @@
-
-function init()
+pegarNodos();
+function pegarNodos()
 {
-    //Get Element By Id
+   let myUl = document.createElement("ul");
+   myUl.setAttribute("class", "gianfranco");
+   myUl.innerHTML="<li>Item 1</li><li>item 2</li>";
 
-    
-    //Get Elements By ClassName
+   const lista = document.getElementById("lista");
+
+   lista.appendChild(myUl);
 
 
-    //Get Elements By Tag Name
+
 
 
 }

@@ -1,13 +1,13 @@
-
-function init()
+quitarNodos();
+function quitarNodos()
 {
-    //Get Element By Id
 
-    
-    //Get Elements By ClassName
+   const lista = document.getElementById("lista");
+
+   lista.remove();
 
 
-    //Get Elements By Tag Name
+
 
 
 }

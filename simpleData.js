@@ -5,7 +5,8 @@ const categorias = [
     {id:3,nombre:"Tecnología"},
     {id:4,nombre:"Juguetes"},
     {id:5,nombre:"Aseo"},
-
+    {id:6,nombre:"Carnes"},
+    {id:7,nombre:"Licores"},
 ]
 
 const productos = [

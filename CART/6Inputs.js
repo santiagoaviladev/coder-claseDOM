@@ -1,13 +1,12 @@
+getInputs();
 
-function init()
+function getInputs()
 {
-    //Get Element By Id
 
+    const nombre = document.getElementById("nombre").value;
+    const titulo = document.getElementById("titulo");
+
+    titulo.innerText=`Bienvenido, ${nombre}`;
     
-    //Get Elements By ClassName
-
-
-    //Get Elements By Tag Name
-
 
 }

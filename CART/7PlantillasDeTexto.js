@@ -1,13 +1,24 @@
-
-function init()
+modificarPlantilla();
+function modificarPlantilla()
 {
-    //Get Element By Id
+    const contenedor = document.getElementById("lista");
+    const nombre = prompt("Ingresa un nombre");
+    contenedor.innerHTML=`<div>
+                            <h5>${nombre}</h5>
+                            <p>Esto es un carrito de compras</p>
+                          </div>`
 
-    
-    //Get Elements By ClassName
+    const myUl = document.createElement("ul");
 
+    categorias.forEach((categoria)=>{
+            
+    myUl.innerHTML+=`
+            <li>Nombre Categoria: ${categoria.nombre}<br>
+            Id Categoría: ${categoria.id}</li>`
 
-    //Get Elements By Tag Name
+    });
+
+    contenedor.appendChild(myUl);
 
 
 }
